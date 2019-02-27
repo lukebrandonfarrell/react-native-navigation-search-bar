@@ -131,9 +131,9 @@ class SearchBar extends React.Component {
       Navigation.mergeOptions(this.props.componentId, {
         statusBar: { style: "dark" }
       });
-
-      if (this.props.onFocus) this.props.onFocus();
     }
+
+    if (this.props.onFocus) this.props.onFocus();
   }
 
   /**
@@ -158,9 +158,9 @@ class SearchBar extends React.Component {
       Navigation.mergeOptions(this.props.componentId, {
         statusBar: { style: "light" }
       });
-
-      if (this.props.onBlur) this.props.onBlur();
     }
+
+    if (this.props.onBlur) this.props.onBlur();
   }
 }
 
