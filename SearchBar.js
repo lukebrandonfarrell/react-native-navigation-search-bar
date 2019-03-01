@@ -24,7 +24,6 @@ class SearchBar extends React.Component {
 
     /** Component State */
     this.state = {
-      search: null,
       searchBarTopPadding: new Animated.Value(0),
       searchBarFocused: false
     };
@@ -37,31 +36,15 @@ class SearchBar extends React.Component {
   /**
    * [ Built-in React method. ]
    *
-   * Executed when the components props are updated.
-   */
-  componentDidUpdate(prevProps, prevState) {
-    /** Props */
-    const { onChangeText } = this.props;
-    /** State */
-    const { search } = this.state;
-
-    if (prevState.search !== this.state.search) {
-      if (onChangeText) onChangeText(search);
-    }
-  }
-
-  /**
-   * [ Built-in React method. ]
-   *
    * Allows us to render JSX to the screen
    */
   render() {
     /** Styles */
     const { searchContainerStyle } = styles;
     /** Props */
-    const { placeholder, onSearchButtonPress, onCancel, onClear } = this.props;
+    const { search, placeholder, onSearchButtonPress, onCancel, onClear, onChangeText } = this.props;
     /** State */
-    const { search, searchBarTopPadding } = this.state;
+    const { searchBarTopPadding } = this.state;
 
     return (
       <Animated.View
@@ -83,7 +66,7 @@ class SearchBar extends React.Component {
           autoCorrect={false}
           spellCheck={false}
           returnKeyType="search"
-          onChangeText={value => this.setState({ search: value })}
+          onChangeText={value => onChangeText(value)}
           onBlur={this.searchBarBlurred}
           onFocus={this.searchBarFocused}
           onSubmitEditing={() => {
@@ -169,6 +152,7 @@ SearchBar.defaultProps = {
 };
 
 SearchBar.propTypes = {
+  search: PropTypes.string,
   componentId: PropTypes.string.isRequired,
   statusBarHeight: PropTypes.number.isRequired,
   placeholder: PropTypes.string,
