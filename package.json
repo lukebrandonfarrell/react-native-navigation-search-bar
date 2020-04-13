@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
+  "keywords": [
+    "react-native-navigation",
+    "react-native-elements",
+    "search-bar",
+    "react-native",
+    "collapse header"
+  ],
   "author": "Luke Brandon Farrell",
   "license": "MIT",
   "dependencies": {
