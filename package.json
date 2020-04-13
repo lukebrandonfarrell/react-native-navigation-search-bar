@@ -17,5 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "react-native-elements": "^1.2.7"
+  },
+  "peerDependencies": {
+    "react-native-navigation": ">= 2.0.0"
   }
 }

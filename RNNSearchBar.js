@@ -78,18 +78,7 @@ export class RNNSearchBar extends React.Component {
       </Animated.View>
     );
   }
-
-  /**
-   * Both the blur and focus functions below contain a rare
-   * use case where we need to access the RNN API from the
-   * component. The architecture of the project discourages
-   * this practices, and favours access if the RNN API to
-   * be limited to "screens" in the "./screens" folder.
-   *
-   * Although in this case, the component animation does
-   * not make sense without a accompanied topBar hide/show.
-   */
-
+  
   /**
    * Sets the search as focused and evokes any side effects
    */
