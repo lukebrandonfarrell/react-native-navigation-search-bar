@@ -22,10 +22,10 @@ or
 This component wraps the react-native-elements [<SearchBar />](https://react-native-elements.github.io/react-native-elements/docs/searchbar.html) with extra functionality for React Native Navigation.
 
 ```js
-import { SearchBar } from "react-native-navigation-search-bar";
+import { RNNSearchBar } from "react-native-navigation-search-bar";
 
 // register our drawer component with RNN
-<SearchBar
+<RNNSearchBar
     componentId={componentId} // <-- RNN component id
     statusBarHeight={statusBarHeight} // <-- prop status bar height
     search={...}
