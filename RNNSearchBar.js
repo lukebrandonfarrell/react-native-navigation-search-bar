@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { SearchBar as ElementsSearchBar } from "react-native-elements";
 import { Navigation } from "react-native-navigation";
 
-class SearchBar extends React.Component {
+export class RNNSearchBar extends React.Component {
   /**
    * [ Built-in React method. ]
    *
@@ -163,8 +163,6 @@ SearchBar.propTypes = {
   onClear: PropTypes.func,
   onCancel: PropTypes.func
 };
-
-export default SearchBar;
 
 /** -------------------------------------------- */
 /**             Component Styling                */

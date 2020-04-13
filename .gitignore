@@ -1,0 +1,4 @@
+# Yeah, we don't want these
+
+.DS_Store
+node_modules/
