@@ -1,13 +1,13 @@
 {
   "name": "react-native-navigation-search-bar",
   "version": "1.0.2",
-  "description": "",
+  "description": "React Native Navigation Search Bar with Collapsible Header 🤔It's that simple!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Luke Brandon Farrell",
+  "license": "MIT",
   "dependencies": {
     "react-native-elements": "^1.2.7"
   }
