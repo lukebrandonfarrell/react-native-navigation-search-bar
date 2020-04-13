@@ -1,3 +1,16 @@
+<p align="left">
+  <a href="https://www.npmjs.com/package/react-native-navigation-search-bar" rel="nofollow">
+  <img src="https://img.shields.io/npm/v/react-native-navigation-search-bar.svg?style=flat-square" alt="version" style="max-width:100%;" />
+  </a>
+  <a href="https://www.npmjs.com/package/react-native-navigation-search-bar" rel="nofollow">
+  <img src="http://img.shields.io/npm/l/react-native-navigation-search-bar.svg?style=flat-square" alt="license" style="max-width:100%;" />
+  </a>
+  <a href="https://www.npmjs.com/package/react-native-navigation-search-bar" rel="nofollow">
+    <img src="http://img.shields.io/npm/dt/react-native-navigation-search-bar.svg?style=flat-square" alt="downloads" style="max-width:100%;" />
+  </a>
+  <hr />
+</p>
+
 <h1 align="center">
   <img src="https://github.com/lukebrandonfarrell/react-native-navigation-search-bar/blob/master/example%231.gif?raw=true"/><br/>
   React Native Navigation Search Bar
@@ -8,13 +21,13 @@ A searcbar for [React Native Navigation](https://github.com/wix/react-native-nav
 ## Install
 
 ```sh
- npm install react-native-navigation-drawer-extension --save
+ npm install react-native-navigation-search-bar --save
 ```
 
 or
 
 ```sh
- yarn add react-native-navigation-drawer-extension
+ yarn add react-native-navigation-search-bar
 ```
 
 ## Usage
