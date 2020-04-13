@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./example#1.gif"/><br/>
+  <img src="https://github.com/lukebrandonfarrell/react-native-navigation-search-bar/blob/master/example%231.gif?raw=true"/><br/>
   React Native Navigation Search Bar
 </h1>
 
