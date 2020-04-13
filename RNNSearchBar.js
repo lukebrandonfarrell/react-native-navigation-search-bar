@@ -136,11 +136,11 @@ export class RNNSearchBar extends React.Component {
   }
 }
 
-SearchBar.defaultProps = {
+RNNSearchBar.defaultProps = {
   placeholder: "search"
 };
 
-SearchBar.propTypes = {
+RNNSearchBar.propTypes = {
   search: PropTypes.string,
   componentId: PropTypes.string.isRequired,
   statusBarHeight: PropTypes.number.isRequired,
