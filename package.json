@@ -1,6 +1,6 @@
 {
   "name": "react-native-navigation-search-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Native Navigation Search Bar with Collapsible Header 🤔It's that simple!",
   "main": "index.js",
   "scripts": {
