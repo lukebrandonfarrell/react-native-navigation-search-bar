@@ -4,7 +4,11 @@
   "description": "React Native Navigation Search Bar with Collapsible Header 🤔It's that simple!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "pre-commit": "lint-staged",
+    "postinstall": "husky install"
   },
   "keywords": [
     "react-native-navigation",
@@ -20,5 +24,14 @@
   },
   "peerDependencies": {
     "react-native-navigation": ">= 2.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "pinst": "^2.1.6",
+    "prettier": "^2.3.0",
+    "semantic-release": "^17.4.3"
   }
 }
