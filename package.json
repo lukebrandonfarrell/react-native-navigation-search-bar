@@ -32,6 +32,6 @@
     "lint-staged": "^11.0.0",
     "pinst": "^2.1.6",
     "prettier": "^2.3.0",
-    "semantic-release": "^17.4.3"
+    "semantic-release": "^19.0.3"
   }
 }
